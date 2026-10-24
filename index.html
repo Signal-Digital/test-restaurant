@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saveur de Porto — Restaurant gastronomique portugais</title>
+  <meta name="description" content="Saveur de Porto, table gastronomique portugaise. Cuisine atlantique, vins du Douro et l'âme de Porto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="nav">
+    <a href="#" class="nav__logo">Saveur <em>de</em> Porto</a>
+    <nav class="nav__links" aria-label="Navigation principale">
+      <a href="#maison">La Maison</a>
+      <a href="#menu">La Carte</a>
+      <a href="#infos">Infos</a>
+    </nav>
+    <a href="#reservation" class="nav__cta">Réserver</a>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <figure class="hero__media">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=2400&q=80&auto=format&fit=crop"
+             alt="Salle du restaurant à la lumière des bougies" onerror="this.remove()">
+      </figure>
+      <div class="hero__veil"></div>
+
+      <div class="hero__content">
+        <p class="eyebrow">Cozinha de autor &nbsp;·&nbsp; Depuis 2014</p>
+        <h1 class="hero__title">
+          L'Atlantique,<br>
+          <em>le Douro</em><br>
+          & la mémoire.
+        </h1>
+      </div>
+
+      <aside class="hero__aside">
+        <p class="hero__lede">
+          Une table intime où les recettes de nos grands-mères de la Ribeira
+          rencontrent la précision de la haute cuisine. Poissons de la côte nord,
+          huile d'olive du Trás-os-Montes et une cave de portos rares.
+        </p>
+        <a href="#reservation" class="btn">
+          Réserver une table
+          <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+      </aside>
+
+      <p class="hero__caption">N° 01 — La salle, un soir de novembre</p>
+    </section>
+
+    <!-- ============ MAISON / EDITORIAL ============ -->
+    <section class="maison" id="maison">
+      <div class="maison__index">
+        <span class="folio">I.</span>
+        <span class="label">La Maison</span>
+      </div>
+
+      <h2 class="maison__heading">
+        « Cuisiner, c'est raconter une ville<br>
+        <em>avec du sel, du feu et du temps.</em> »
+      </h2>
+
+      <div class="maison__body">
+        <p class="dropcap">
+          Né sur les quais de Porto, le chef Tiago Ferreira a grandi entre l'odeur
+          des sardines grillées et celle des fûts de chêne de Vila Nova de Gaia.
+          Chez Saveur de Porto, il revisite ce patrimoine avec retenue&nbsp;: peu
+          d'ingrédients, une saisonnalité stricte et un profond respect du produit.
+        </p>
+        <p>
+          Chaque menu dégustation est une traversée — de l'estuaire du Douro aux
+          vallées en terrasses — accompagnée d'accords choisis parmi plus de
+          trois cents références portugaises.
+        </p>
+        <p class="signature">— Tiago Ferreira, chef</p>
+      </div>
+
+      <figure class="maison__figure">
+        <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?w=1200&q=80&auto=format&fit=crop"
+             alt="Le chef dressant une assiette" onerror="this.remove()">
+        <figcaption>Le passe, 19 h 40.</figcaption>
+      </figure>
+    </section>
+
+    <!-- ============ FULL-BLEED INTERLUDE ============ -->
+    <section class="interlude" aria-label="Photographie culinaire">
+      <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=2400&q=80&auto=format&fit=crop"
+           alt="Assiette gastronomique sur fond sombre" onerror="this.remove()">
+      <blockquote class="interlude__quote">
+        Saudade <em>(n.)</em> — la nostalgie douce<br>d'une saveur que l'on n'oublie jamais.
+      </blockquote>
+    </section>
+
+    <!-- ============ MENU PREVIEW ============ -->
+    <section class="menu" id="menu">
+      <header class="menu__header">
+        <div class="maison__index">
+          <span class="folio">II.</span>
+          <span class="label">La Carte</span>
+        </div>
+        <h2 class="section-title">Trois plats <em>signatures</em></h2>
+        <p class="menu__intro">
+          Un aperçu de notre menu d'automne. Le menu dégustation complet
+          se compose de sept services, à 125&nbsp;€, accords mets et vins à 85&nbsp;€.
+        </p>
+      </header>
+
+      <div class="dishes">
+        <article class="dish dish--tall">
+          <figure class="dish__media">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=1200&q=80&auto=format&fit=crop"
+                 alt="Morue confite et émulsion" onerror="this.remove()">
+          </figure>
+          <div class="dish__meta">
+            <span class="dish__num">01</span>
+            <span class="dish__course">Entrée</span>
+          </div>
+          <h3 class="dish__name">Bacalhau <em>confit</em></h3>
+          <p class="dish__desc">
+            Morue dessalée 48&nbsp;heures, confite à l'huile d'olive de Mirandela,
+            émulsion de pois chiches, œuf de caille fumé et chips de pomme de terre.
+          </p>
+          <p class="dish__price">38 €</p>
+        </article>
+
+        <article class="dish dish--offset">
+          <figure class="dish__media">
+            <img src="https://images.unsplash.com/photo-1559847844-5315695dadae?w=1200&q=80&auto=format&fit=crop"
+                 alt="Poulpe grillé" onerror="this.remove()">
+          </figure>
+          <div class="dish__meta">
+            <span class="dish__num">02</span>
+            <span class="dish__course">Plat</span>
+          </div>
+          <h3 class="dish__name">Polvo <em>à lagareiro</em></h3>
+          <p class="dish__desc">
+            Poulpe de Viana do Castelo rôti au feu de bois, pommes de terre
+            « à murro », ail noir et coulis de poivron rouge brûlé.
+          </p>
+          <p class="dish__price">54 €</p>
+        </article>
+
+        <article class="dish">
+          <figure class="dish__media">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1200&q=80&auto=format&fit=crop"
+                 alt="Dessert revisité" onerror="this.remove()">
+          </figure>
+          <div class="dish__meta">
+            <span class="dish__num">03</span>
+            <span class="dish__course">Dessert</span>
+          </div>
+          <h3 class="dish__name">Nata <em>& Porto Tawny</em></h3>
+          <p class="dish__desc">
+            Notre pastel de nata déconstruit&nbsp;: crème brûlée à la cannelle,
+            feuilletage caramélisé et réduction de Porto Tawny 20&nbsp;ans.
+          </p>
+          <p class="dish__price">22 €</p>
+        </article>
+      </div>
+
+      <a href="#reservation" class="link-arrow">Découvrir la carte complète <span aria-hidden="true">→</span></a>
+    </section>
+
+    <!-- ============ RESERVATION CTA ============ -->
+    <section class="reserve" id="reservation">
+      <figure class="reserve__media">
+        <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=2400&q=80&auto=format&fit=crop"
+             alt="Verres de vin sur une table" onerror="this.remove()">
+      </figure>
+      <div class="reserve__veil"></div>
+      <div class="reserve__content">
+        <p class="eyebrow">Mesa para dois?</p>
+        <h2 class="section-title section-title--light">Réservez votre <em>soirée</em></h2>
+        <p>Vingt-quatre couverts seulement. Nous vous conseillons de réserver deux semaines à l'avance.</p>
+        <a href="tel:+33142000000" class="btn btn--light">
+          Réserver une table <span class="btn__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="infos">
+    <div class="footer__brand">
+      <p class="footer__logo">Saveur <em>de</em> Porto</p>
+      <p class="footer__tagline">Table gastronomique portugaise</p>
+      <div class="azulejo" aria-hidden="true"></div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Adresse</h4>
+      <address>
+        12, rue de la Ribeira<br>
+        75004 Paris<br>
+        <a href="tel:+33142000000">+33 1 42 00 00 00</a><br>
+        <a href="mailto:ola@saveurdeporto.fr">ola@saveurdeporto.fr</a>
+      </address>
+    </div>
+
+    <div class="footer__col">
+      <h4>Horaires</h4>
+      <dl class="hours">
+        <div><dt>Lundi</dt><dd>Fermé</dd></div>
+        <div><dt>Mardi — Jeudi</dt><dd>19 h 00 — 22 h 30</dd></div>
+        <div><dt>Vendredi — Samedi</dt><dd>12 h 00 — 14 h 00<br>19 h 00 — 23 h 00</dd></div>
+        <div><dt>Dimanche</dt><dd>12 h 00 — 15 h 00</dd></div>
+      </dl>
+    </div>
+
+    <div class="footer__bottom">
+      <span>© 2026 Saveur de Porto</span>
+      <span>Instagram &nbsp;·&nbsp; Facebook</span>
+      <span>Obrigado pela visita</span>
+    </div>
+  </footer>
+
+</body>
+</html>
